@@ -18,5 +18,12 @@ setInterval(() => {
 
     let bler3 = document.getElementsByClassName("Cto1rx")[0]
      if (bler3) bler3.style.backdropFilter = 'none'
+
+    let bler4 = document.getElementsByClassName("C8325s")[0]
+     if (bler4) bler4.style.backdropFilter= 'none'
+     if (bler4) bler4.style.display = 'none' 
+
+    let box2 = document.getElementsById('apptab')[0]
+     if (box2) box2.style.display = 'none'
 }, 1);
 
